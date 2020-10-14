@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用装饰器统计网站流量</title>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        .container{
+            margin: 20px 300px 20px 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h4>使用装饰器统计网站流量</h4>
+        <h5><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 当前日期: {{ date }}</h5>
+        <h5><i class="fa fa-hand-pointer-o" aria-hidden="true"></i> 今日访问量: {{ visits }}</h5>
+        <h5><i class="fa fa-comment-o" aria-hidden="true"></i> 今日评论量: {{ comments }}</h5>
+        <h5><i class="fa fa-heart-o" aria-hidden="true"></i> 今日点赞量: {{ likes }}</h5>
+        <a href="/">主页</a>
+        <a href="/comment/">评论</a>
+        <a href="/like/">点赞</a>
+    </div>
+</body>
+</html>
