@@ -4,6 +4,7 @@
 ```bash
 cd traffic
 pip install -r requirments.txt
+cd app
 python app.py
 ```
 访问http://127.0.0.1:5000 既可以看到效果。
